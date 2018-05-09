@@ -15,7 +15,6 @@
 *.html
 *.js
 *.css
-*.s
 *.i
 *.lst
 *.map
