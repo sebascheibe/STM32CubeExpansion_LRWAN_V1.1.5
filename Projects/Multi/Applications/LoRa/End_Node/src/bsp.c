@@ -91,9 +91,9 @@ void *PRESSURE_handle = NULL;
 void BSP_sensor_Read( sensor_t *sensor_data)
 {
   /* USER CODE BEGIN 5 */
-  float HUMIDITY_Value = 0;
-  float TEMPERATURE_Value = 0;
-  float PRESSURE_Value = 0;
+  float HUMIDITY_Value = 65;
+  float TEMPERATURE_Value = 24;
+  float PRESSURE_Value = 986;
 
 #if defined(SENSOR_ENABLED) || defined (LRWAN_NS1)
   BSP_HUMIDITY_Get_Hum(HUMIDITY_handle, &HUMIDITY_Value);
