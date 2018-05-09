@@ -23,7 +23,6 @@
 *.scr  	# define exception below if needed
 
 # Object and HEX files
-*.axf
 *.b[0-3][0-9]
 *.hex
 *.d
