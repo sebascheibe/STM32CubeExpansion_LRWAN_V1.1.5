@@ -446,7 +446,7 @@
 
   <Group>
     <GroupName>B-L072Z-LRWAN1</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -454,7 +454,7 @@
       <GroupNumber>6</GroupNumber>
       <FileNumber>18</FileNumber>
       <FileType>1</FileType>
-      <tvExp>1</tvExp>
+      <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1\b-l072z-lrwan1.c</PathWithFileName>
@@ -858,7 +858,7 @@
 
   <Group>
     <GroupName>Middlewares/Lora/Core</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -890,7 +890,7 @@
 
   <Group>
     <GroupName>Middlewares/Lora/Mac</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1050,7 +1050,7 @@
       <GroupNumber>13</GroupNumber>
       <FileNumber>63</FileNumber>
       <FileType>1</FileType>
-      <tvExp>1</tvExp>
+      <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionUS915.c</PathWithFileName>
@@ -1074,7 +1074,7 @@
 
   <Group>
     <GroupName>Middlewares/Lora/Utilities</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>

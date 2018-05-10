@@ -65,11 +65,12 @@
 #define LPP_DATATYPE_HUMIDITY       0x68
 #define LPP_DATATYPE_TEMPERATURE    0x67
 #define LPP_DATATYPE_BAROMETER      0x73
+#define LPP_DATATYPE_GPS      			0x88
 #define LPP_APP_PORT 99
 /*!
  * Defines the application data transmission duty cycle. 5s, value in [ms].
  */
-#define APP_TX_DUTYCYCLE                            5000
+#define APP_TX_DUTYCYCLE                            500
 /*!
  * LoRaWAN Adaptive Data Rate
  * @note Please note that when ADR is enabled the end-device should be static
@@ -229,6 +230,8 @@ static void Send( void )
   uint16_t pressure = 0;
   int16_t temperature = 0;
   uint16_t humidity = 0;
+	float latitude, longitude, altitude = 0;
+	int32_t latitude_lpp, longitude_lpp, altitude_lpp = 0;
   uint8_t batteryLevel;
   sensor_t sensor_data;
   
@@ -262,6 +265,16 @@ static void Send( void )
   temperature = ( int16_t )( sensor_data.temperature * 10 );     /* in °C * 10 */
   pressure    = ( uint16_t )( sensor_data.pressure * 100 / 10 );  /* in hPa / 10 */
   humidity    = ( uint16_t )( sensor_data.humidity * 2 );        /* in %*2     */
+  
+	//TODO retrieve sensor data
+	latitude = -31.7330;
+	longitude = -60.5297;
+	altitude = 7.40;
+	
+	latitude_lpp = ( int32_t ) ( latitude * 10000 );
+	longitude_lpp = ( int32_t ) ( longitude * 10000 );
+	altitude_lpp = ( int32_t ) ( altitude * 100 );
+	
   uint32_t i = 0;
 
   batteryLevel = HW_GetBatteryLevel( );                     /* 1 (very low) to 254 (fully charged) */
@@ -279,6 +292,20 @@ static void Send( void )
   AppData.Buff[i++] = cchannel++;
   AppData.Buff[i++] = LPP_DATATYPE_HUMIDITY;
   AppData.Buff[i++] = humidity & 0xFF;
+	
+	AppData.Buff[i++] = cchannel++;
+  AppData.Buff[i++] = LPP_DATATYPE_GPS;
+	AppData.Buff[i++] = ( latitude_lpp >> 16 ) & 0xFF;
+  AppData.Buff[i++] = ( latitude_lpp >> 8 ) & 0xFF;
+  AppData.Buff[i++] = latitude_lpp & 0xFF;
+  AppData.Buff[i++] = ( longitude_lpp >> 16 ) & 0xFF;
+  AppData.Buff[i++] = ( longitude_lpp >> 8 ) & 0xFF;
+  AppData.Buff[i++] = longitude_lpp & 0xFF;
+	AppData.Buff[i++] = ( altitude_lpp >> 16 ) & 0xFF;
+  AppData.Buff[i++] = ( altitude_lpp >> 8 ) & 0xFF;
+  AppData.Buff[i++] = altitude_lpp & 0xFF;
+	
+	
 #if defined( REGION_US915 ) || defined( REGION_US915_HYBRID ) || defined ( REGION_AU915 )
   /* The maximum payload size does not allow to send more data for lowest DRs */
 #else

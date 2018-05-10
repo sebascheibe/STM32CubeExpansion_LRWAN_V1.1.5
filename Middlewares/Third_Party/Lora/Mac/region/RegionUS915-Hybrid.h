@@ -40,7 +40,7 @@
 /*!
  * LoRaMac maximum number of channels
  */
-#define US915_HYBRID_MAX_NB_CHANNELS                72
+#define US915_HYBRID_MAX_NB_CHANNELS                8
 
 /*!
  * Minimal datarate that can be used by the node
