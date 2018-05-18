@@ -63,3 +63,4 @@
 .\mlm32l07x01\main.o: ..\..\inc\bsp.h
 .\mlm32l07x01\main.o: ..\..\inc\version.h
 .\mlm32l07x01\main.o: ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core\lora_mac_version.h
+.\mlm32l07x01\main.o: ..\..\inc\tm_stm3210_gps.h

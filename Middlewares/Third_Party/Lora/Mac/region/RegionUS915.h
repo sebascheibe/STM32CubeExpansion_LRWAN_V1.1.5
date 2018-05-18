@@ -40,7 +40,7 @@
 /*!
  * LoRaMac maximum number of channels
  */
-#define US915_MAX_NB_CHANNELS                       8
+#define US915_MAX_NB_CHANNELS                       72 //This has to be 72 to work, in LoRaMac.c (l.2070) device is forced to use the first 8 channels only
 
 /*!
  * Minimal datarate that can be used by the node
@@ -50,7 +50,7 @@
 /*!
  * Maximal datarate that can be used by the node
  */
-#define US915_TX_MAX_DATARATE                       DR_4
+#define US915_TX_MAX_DATARATE                       DR_0 //DR_4
 
 /*!
  * Minimal datarate that can be used by the node
@@ -165,7 +165,7 @@
 /*!
  * Second reception window channel datarate definition.
  */
-#define US915_RX_WND_2_DR                           DR_8
+#define US915_RX_WND_2_DR                           DR_1 //DR_8
 
 /*!
  * LoRaMac maximum number of bands

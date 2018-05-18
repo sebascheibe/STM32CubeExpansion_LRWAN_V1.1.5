@@ -2067,7 +2067,7 @@ static LoRaMacStatus_t ScheduleTx( bool allowDelayedTx )
     }
 
     // Try to send now
-    return SendFrameOnChannel( Channel );
+    return SendFrameOnChannel( Channel%8); //Fix Channel -> Channel%8 to send on the first 8 channels only (0-7) supported by gateway
 }
 
 static void CalculateBackOff( uint8_t channel )

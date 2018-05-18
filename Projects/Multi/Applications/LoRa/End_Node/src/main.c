@@ -52,6 +52,7 @@
 #include "timeServer.h"
 #include "vcom.h"
 #include "version.h"
+#include "tm_stm3210_gps.h"
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
@@ -70,12 +71,13 @@
 /*!
  * Defines the application data transmission duty cycle. 5s, value in [ms].
  */
-#define APP_TX_DUTYCYCLE                            500
+#define APP_TX_DUTYCYCLE                            1000
+#define PHY_DUTY_CYCLE 																0
 /*!
  * LoRaWAN Adaptive Data Rate
  * @note Please note that when ADR is enabled the end-device should be static
  */
-#define LORAWAN_ADR_STATE LORAWAN_ADR_ON
+#define LORAWAN_ADR_STATE LORAWAN_ADR_ON //ON
 /*!
  * LoRaWAN Default data Rate Data Rate
  * @note Please note that LORAWAN_DEFAULT_DATA_RATE is used only when ADR is disabled 
@@ -97,7 +99,7 @@
 /*!
  * User application data buffer size
  */
-#define LORAWAN_APP_DATA_BUFF_SIZE                           64
+#define LORAWAN_APP_DATA_BUFF_SIZE                           42 //64
 /*!
  * User application data
  */
@@ -280,19 +282,20 @@ static void Send( void )
   batteryLevel = HW_GetBatteryLevel( );                     /* 1 (very low) to 254 (fully charged) */
 
   AppData.Port = LPP_APP_PORT;
-
+/*
   AppData.Buff[i++] = cchannel++;
   AppData.Buff[i++] = LPP_DATATYPE_BAROMETER;
   AppData.Buff[i++] = ( pressure >> 8 ) & 0xFF;
   AppData.Buff[i++] = pressure & 0xFF;
-  AppData.Buff[i++] = cchannel++;
+  
+	AppData.Buff[i++] = cchannel++;
   AppData.Buff[i++] = LPP_DATATYPE_TEMPERATURE; 
   AppData.Buff[i++] = ( temperature >> 8 ) & 0xFF;
   AppData.Buff[i++] = temperature & 0xFF;
   AppData.Buff[i++] = cchannel++;
   AppData.Buff[i++] = LPP_DATATYPE_HUMIDITY;
   AppData.Buff[i++] = humidity & 0xFF;
-	
+*/
 	AppData.Buff[i++] = cchannel++;
   AppData.Buff[i++] = LPP_DATATYPE_GPS;
 	AppData.Buff[i++] = ( latitude_lpp >> 16 ) & 0xFF;

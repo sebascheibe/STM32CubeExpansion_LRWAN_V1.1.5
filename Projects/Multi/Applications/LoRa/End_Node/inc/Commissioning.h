@@ -132,7 +132,7 @@
  *
  * \remark see STATIC_DEVICE_ADDRESS comments
  */
-#define LORAWAN_DEVICE_ADDRESS                      ( uint32_t )0x0100000a
+#define LORAWAN_DEVICE_ADDRESS                      ( uint32_t )0x0195832a
 
 /*!
  * AES encryption/decryption cipher network session key
