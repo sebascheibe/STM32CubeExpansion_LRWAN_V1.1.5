@@ -63,4 +63,12 @@
 .\mlm32l07x01\main.o: ..\..\inc\bsp.h
 .\mlm32l07x01\main.o: ..\..\inc\version.h
 .\mlm32l07x01\main.o: ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core\lora_mac_version.h
-.\mlm32l07x01\main.o: ..\..\inc\tm_stm3210_gps.h
+.\mlm32l07x01\main.o: ..\..\inc\main.h
+.\mlm32l07x01\main.o: ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_bus.h
+.\mlm32l07x01\main.o: ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_rcc.h
+.\mlm32l07x01\main.o: ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_system.h
+.\mlm32l07x01\main.o: ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_utils.h
+.\mlm32l07x01\main.o: ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_gpio.h
+.\mlm32l07x01\main.o: ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_exti.h
+.\mlm32l07x01\main.o: ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_usart.h
+.\mlm32l07x01\main.o: ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_pwr.h

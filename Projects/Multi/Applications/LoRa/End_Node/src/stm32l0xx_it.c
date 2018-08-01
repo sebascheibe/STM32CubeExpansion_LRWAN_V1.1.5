@@ -1,73 +1,48 @@
-/*
- / _____)             _              | |
-( (____  _____ ____ _| |_ _____  ____| |__
- \____ \| ___ |    (_   _) ___ |/ ___)  _ \
- _____) ) ____| | | || |_| ____( (___| | | |
-(______/|_____)_|_|_| \__)_____)\____)_| |_|
-    (C)2013 Semtech
-
-Description: Bleeper board GPIO driver implementation
-
-License: Revised BSD License, see LICENSE.TXT file include in the project
-
-Maintainer: Miguel Luis and Gregory Cristian
-*/
- /******************************************************************************
-  * @file    stm32l0xx_it.c
+/**
+  ******************************************************************************
+  * @file    Examples_LL/USART/USART_Communication_Rx_IT_Continuous/Src/stm32l0xx_it.c
   * @author  MCD Application Team
-  * @version V1.1.5
-  * @date    30-March-2018
-  * @brief   manages interupt
+  * @brief   Main Interrupt Service Routines.
+  *          This file provides template for all exceptions handler and
+  *          peripherals interrupt service routine.
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2017 STMicroelectronics International N.V. 
-  * All rights reserved.</center></h2>
+  * <h2><center>&copy; COPYRIGHT(c) 2016 STMicroelectronics</center></h2>
   *
-  * Redistribution and use in source and binary forms, with or without 
-  * modification, are permitted, provided that the following conditions are met:
+  * Redistribution and use in source and binary forms, with or without modification,
+  * are permitted provided that the following conditions are met:
+  *   1. Redistributions of source code must retain the above copyright notice,
+  *      this list of conditions and the following disclaimer.
+  *   2. Redistributions in binary form must reproduce the above copyright notice,
+  *      this list of conditions and the following disclaimer in the documentation
+  *      and/or other materials provided with the distribution.
+  *   3. Neither the name of STMicroelectronics nor the names of its contributors
+  *      may be used to endorse or promote products derived from this software
+  *      without specific prior written permission.
   *
-  * 1. Redistribution of source code must retain the above copyright notice, 
-  *    this list of conditions and the following disclaimer.
-  * 2. Redistributions in binary form must reproduce the above copyright notice,
-  *    this list of conditions and the following disclaimer in the documentation
-  *    and/or other materials provided with the distribution.
-  * 3. Neither the name of STMicroelectronics nor the names of other 
-  *    contributors to this software may be used to endorse or promote products 
-  *    derived from this software without specific written permission.
-  * 4. This software, including modifications and/or derivative works of this 
-  *    software, must execute solely and exclusively on microcontroller or
-  *    microprocessor devices manufactured by or for STMicroelectronics.
-  * 5. Redistribution and use of this software other than as permitted under 
-  *    this license is void and will automatically terminate your rights under 
-  *    this license. 
-  *
-  * THIS SOFTWARE IS PROVIDED BY STMICROELECTRONICS AND CONTRIBUTORS "AS IS" 
-  * AND ANY EXPRESS, IMPLIED OR STATUTORY WARRANTIES, INCLUDING, BUT NOT 
-  * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
-  * PARTICULAR PURPOSE AND NON-INFRINGEMENT OF THIRD PARTY INTELLECTUAL PROPERTY
-  * RIGHTS ARE DISCLAIMED TO THE FULLEST EXTENT PERMITTED BY LAW. IN NO EVENT 
-  * SHALL STMICROELECTRONICS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-  * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-  * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
-  * OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
-  * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING 
-  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
-  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+  * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+  * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+  * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   *
   ******************************************************************************
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include "hw.h"
 #include "stm32l0xx_it.h"
 
-
-/** @addtogroup STM32L1xx_HAL_Examples
+/** @addtogroup STM32L0xx_LL_Examples
   * @{
   */
 
-/** @addtogroup SPI_FullDuplex_ComPolling
+/** @addtogroup USART_Communication_Rx_IT_Continuous
   * @{
   */
 
@@ -75,40 +50,35 @@ Maintainer: Miguel Luis and Gregory Cristian
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
+
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
 
 /******************************************************************************/
-/*            Cortex-M3 Processor Exceptions Handlers                         */
+/*            Cortex-M0+ Processor Exceptions Handlers                         */
 /******************************************************************************/
 
 /**
-  * @brief   This function handles NMI exception.
+  * @brief  This function handles NMI exception.
   * @param  None
   * @retval None
   */
-
 void NMI_Handler(void)
 {
 }
-
 
 /**
   * @brief  This function handles Hard Fault exception.
   * @param  None
   * @retval None
   */
-
-
 void HardFault_Handler(void)
 {
-  while(1)
+  /* Go to infinite loop when Hard Fault exception occurs */
+  while (1)
   {
-    __NOP();
   }
-
 }
-
 
 /**
   * @brief  This function handles Memory Manage exception.
@@ -183,75 +153,59 @@ void PendSV_Handler(void)
   */
 void SysTick_Handler(void)
 {
-  HAL_IncTick();
 }
 
 /******************************************************************************/
-/*                 STM32L1xx Peripherals Interrupt Handlers                   */
-/*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */
+/*                 STM32L0xx Peripherals Interrupt Handlers                   */
+/*  Add here the Interrupt Handler for the used peripheral(s), for the        */
 /*  available peripheral interrupt handler's name please refer to the startup */
-/*  file (startup_stm32l1xx.s).                                               */
+/*  file (startup_stm32l0xx.s).                                               */
 /******************************************************************************/
 
 /**
-  * @brief  This function handles PPP interrupt request.
+  * @brief  This function handles external lines 4 to 15 interrupt request.
   * @param  None
   * @retval None
   */
-/*void PPP_IRQHandler(void)
+void USER_BUTTON_IRQHANDLER(void)
 {
-}*/
+  /* Manage Flags */
+  if(LL_EXTI_IsActiveFlag_0_31(USER_BUTTON_EXTI_LINE) != RESET)
+  {
+    LL_EXTI_ClearFlag_0_31(USER_BUTTON_EXTI_LINE);
 
-void USART2_IRQHandler( void )
-{
-   vcom_Print( );
+    /* Handle user button press in dedicated function */
+    UserButton_Callback(); 
+  }
 }
 
-void RTC_IRQHandler( void )
+/**
+  * Brief   This function handles USARTx Instance interrupt request.
+  * Param   None
+  * Retval  None
+  */
+void USARTx_IRQHandler(void)
 {
-  HW_RTC_IrqHandler ( );
+  /* Check RXNE flag value in ISR register */
+  if(LL_USART_IsActiveFlag_RXNE(USARTx_INSTANCE) && LL_USART_IsEnabledIT_RXNE(USARTx_INSTANCE))
+  {
+    /* RXNE flag will be cleared by reading of RDR register (done in call) */
+    /* Call function in charge of handling Character reception */
+    USART_CharReception_Callback();
+  }
+  else
+  {
+    /* Call Error function */
+    Error_Callback();
+  }
 }
 
-void EXTI0_1_IRQHandler( void )
-{
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_0 );
+/**
+  * @}
+  */
 
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_1 );
-}
-
-void EXTI2_3_IRQHandler( void )
-{
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_2 );
-
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_3 );
-}
-
-
-void EXTI4_15_IRQHandler( void )
-{
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_4 );
-  
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_5 );
-
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_6 );
-  
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_7 );
-
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_8 );
-
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_9 );
-  
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_10 );
-  
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_11 );
-
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_12 );
-
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_13 );
-
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_14 );
-
-  HAL_GPIO_EXTI_IRQHandler( GPIO_PIN_15 );
-}
+/**
+  * @}
+  */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
