@@ -5,7 +5,6 @@
  _____) ) ____| | | || |_| ____( (___| | | |
 (______/|_____)_|_|_| \__)_____)\____)_| |_|
     (C)2013 Semtech
-
 Description: contains hardaware configuration Macros and Constants
 
 License: Revised BSD License, see LICENSE.TXT file include in the project
@@ -117,7 +116,7 @@ Maintainer: Miguel Luis and Gregory Cristian
 #define RADIO_ANT_SWITCH_PIN                      GPIO_PIN_4
 
 #define RADIO_ANT2_SWITCH_PORT                     GPIOB        
-#define RADIO_ANT2_SWITCH_PIN                      GPIO_PIN_8  
+#define RADIO_ANT2_SWITCH_PIN                      GPIO_PIN_8   
 
 
 #define BAT_LEVEL_PORT                            GPIOA

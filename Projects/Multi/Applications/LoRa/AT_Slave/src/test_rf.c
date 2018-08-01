@@ -48,12 +48,13 @@
 #include "vcom.h"
 #include <stdarg.h>
 #include "radio.h"
-#include "sx1276.h"
-#include "mlm32l07x01.h"
+#include "sx1272.h"
+#include "stm32l0xx_hal_conf.h"
 #include "at.h"
 #include "test_rf.h"
 #include "tiny_sscanf.h"
 
+extern void SX1272SetOpMode( uint8_t opMode );
 
 /* Private typedef -----------------------------------------------------------*/
   typedef struct
@@ -133,7 +134,7 @@ ATEerror_t TST_TxTone(const char *buf, unsigned bufSize)
 
     PRINTF("Tx Test\n\r");
     
-    SX1276SetModem( MODEM_FSK );
+    Radio.SetModem( MODEM_FSK );   // SX1276SetModem( MODEM_FSK );
   
     Radio.SetChannel( loraParam.freqMHz * 1000000 );
         
@@ -202,7 +203,7 @@ ATEerror_t TST_TxTone(const char *buf, unsigned bufSize)
       default:
         break;
     }  
-    SX1276SetOpMode( RF_OPMODE_TRANSMITTER );
+    SX1272SetOpMode( RF_OPMODE_TRANSMITTER );  // SX1276SetOpMode( RF_OPMODE_TRANSMITTER ); 
     return AT_OK;
   }
   else
@@ -222,7 +223,7 @@ ATEerror_t TST_RxTone(const char *buf, unsigned bufSize)
     TestState |= RX_TEST_RSSI;
     PRINTF("Rx Test\n\r");  
     
-     SX1276SetModem( MODEM_FSK );
+    Radio.SetModem( MODEM_FSK );   // SX1276SetModem( MODEM_FSK );
   
     Radio.SetChannel( loraParam.freqMHz * 1000000 );
 
@@ -248,7 +249,7 @@ ATEerror_t TST_RxTone(const char *buf, unsigned bufSize)
 
     Radio.Write( REG_RSSICONFIG, 0x07 );//256 samples average
 
-    SX1276SetOpMode( RF_OPMODE_RECEIVER );
+    SX1272SetOpMode( RF_OPMODE_RECEIVER );  // SX1276SetOpMode( RF_OPMODE_RECEIVER ); 
 
     Radio.Write( REG_RXCONFIG, 0x40  ); //Triggers a manual Restart of the Receiver chain
     
@@ -362,7 +363,7 @@ ATEerror_t TST_stop( void )
   
   PRINTF("Test Stop\n\r");
   /* Set the radio in standBy*/
-  SX1276SetOpMode( RF_OPMODE_SLEEP );
+  SX1272SetOpMode( RF_OPMODE_SLEEP );  // SX1276SetOpMode( RF_OPMODE_SLEEP );
   
   return AT_OK;
 }

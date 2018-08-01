@@ -1,14 +1,14 @@
 ;******************** (C) COPYRIGHT 2015 STMicroelectronics ********************
-;* File Name          : startup_stm32l072xx.s
+;* File Name          : startup_stm32l053xx.s
 ;* Author             : MCD Application Team
 ;* Version            : V1.6.0
 ;* Date               : 15-April-2016
-;* Description        : STM32l072xx Devices vector table for MDK-ARM toolchain.
+;* Description        : STM32l053xx Devices vector table for MDK-ARM toolchain.
 ;*                      This module performs:
 ;*                      - Set the initial SP
 ;*                      - Set the initial PC == Reset_Handler
 ;*                      - Set the vector table entries with the exceptions ISR address
-;*                      - Branches to __main in the C lbrary (which eventually
+;*                      - Branches to __main in the C library (which eventually
 ;*                        calls main()).
 ;*                      After Reset the Cortex-M0+ processor is in Thread mode,
 ;*                      priority is Privileged, and the Stack is set to Main.
@@ -105,14 +105,14 @@ __Vectors       DCD     __initial_sp              ; Top of Stack
                 DCD     DMA1_Channel4_5_6_7_IRQHandler ; DMA1 Channel 4, Channel 5, Channel 6 and Channel 7
                 DCD     ADC1_COMP_IRQHandler           ; ADC1, COMP1 and COMP2 
                 DCD     LPTIM1_IRQHandler              ; LPTIM1
-                DCD     USART4_5_IRQHandler            ; USART4 and USART5
+                DCD     0                              ; Reserved
                 DCD     TIM2_IRQHandler                ; TIM2
-                DCD     TIM3_IRQHandler                ; TIM3
+                DCD     0                              ; Reserved
                 DCD     TIM6_DAC_IRQHandler            ; TIM6 and DAC
-                DCD     TIM7_IRQHandler                ; TIM7
+                DCD     0                              ; Reserved
                 DCD     0                              ; Reserved
                 DCD     TIM21_IRQHandler               ; TIM21
-                DCD     I2C3_IRQHandler                ; I2C3
+                DCD     0                              ; Reserved
                 DCD     TIM22_IRQHandler               ; TIM22
                 DCD     I2C1_IRQHandler                ; I2C1
                 DCD     I2C2_IRQHandler                ; I2C2
@@ -121,7 +121,7 @@ __Vectors       DCD     __initial_sp              ; Top of Stack
                 DCD     USART1_IRQHandler              ; USART1
                 DCD     USART2_IRQHandler              ; USART2
                 DCD     RNG_LPUART1_IRQHandler         ; RNG and LPUART1
-                DCD     0                              ; Reserved
+                DCD     LCD_IRQHandler                 ; LCD
                 DCD     USB_IRQHandler                 ; USB
                 
 __Vectors_End
@@ -181,21 +181,18 @@ Default_Handler PROC
                 EXPORT  DMA1_Channel4_5_6_7_IRQHandler [WEAK]
                 EXPORT  ADC1_COMP_IRQHandler           [WEAK]
                 EXPORT  LPTIM1_IRQHandler              [WEAK]
-                EXPORT  USART4_5_IRQHandler            [WEAK]
                 EXPORT  TIM2_IRQHandler                [WEAK]
-                EXPORT  TIM3_IRQHandler                [WEAK]
                 EXPORT  TIM6_DAC_IRQHandler            [WEAK]
-                EXPORT  TIM7_IRQHandler                [WEAK]
                 EXPORT  TIM21_IRQHandler               [WEAK]
                 EXPORT  TIM22_IRQHandler               [WEAK]
                 EXPORT  I2C1_IRQHandler                [WEAK]
                 EXPORT  I2C2_IRQHandler                [WEAK]
-                EXPORT  I2C3_IRQHandler                [WEAK]
                 EXPORT  SPI1_IRQHandler                [WEAK]
                 EXPORT  SPI2_IRQHandler                [WEAK]
                 EXPORT  USART1_IRQHandler              [WEAK]
                 EXPORT  USART2_IRQHandler              [WEAK]
                 EXPORT  RNG_LPUART1_IRQHandler         [WEAK]
+                EXPORT  LCD_IRQHandler                 [WEAK]
                 EXPORT  USB_IRQHandler                 [WEAK]
 
 
@@ -213,21 +210,18 @@ DMA1_Channel2_3_IRQHandler
 DMA1_Channel4_5_6_7_IRQHandler
 ADC1_COMP_IRQHandler 
 LPTIM1_IRQHandler
-USART4_5_IRQHandler
 TIM2_IRQHandler
-TIM3_IRQHandler
 TIM6_DAC_IRQHandler
-TIM7_IRQHandler
 TIM21_IRQHandler
 TIM22_IRQHandler
 I2C1_IRQHandler
 I2C2_IRQHandler
-I2C3_IRQHandler
 SPI1_IRQHandler
 SPI2_IRQHandler
 USART1_IRQHandler
 USART2_IRQHandler
 RNG_LPUART1_IRQHandler
+LCD_IRQHandler
 USB_IRQHandler
 
                 B       .
@@ -249,7 +243,7 @@ USB_IRQHandler
                 
                  IMPORT  __use_two_region_memory
                  EXPORT  __user_initial_stackheap
-                 
+                
 __user_initial_stackheap
 
                  LDR     R0, =  Heap_Mem

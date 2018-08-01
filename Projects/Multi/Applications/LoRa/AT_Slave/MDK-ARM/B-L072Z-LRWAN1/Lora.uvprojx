@@ -10,7 +10,8 @@
       <TargetName>mlm32l07x01</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
+      <pCCUsed>5060528::V5.06 update 5 (build 528)::ARMCC</pCCUsed>
+      <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32L072CZYx</Device>
@@ -333,9 +334,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls>--C99</MiscControls>
-              <Define>STM32L072xx, USE_B_L072Z_LRWAN1, USE_FULL_LL_DRIVER, REGION_EU868</Define>
+              <Define>STM32L072xx, USE_B_L072Z_LRWAN1, USE_FULL_LL_DRIVER, REGION_US915 LOW_POWER_DISABLE</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\inc;..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01;..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc;..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include;..\..\..\..\..\..\..\Drivers\CMSIS\Include;..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto;..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac;..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy;..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities;..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1;..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core;..\..\..\..\..\..\..\Drivers\BSP\Components\Common;..\..\..\..\..\..\..\Drivers\BSP\Components\hts221;..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb;..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb;..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276;..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1</IncludePath>
+              <IncludePath>..\..\inc;..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01;..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc;..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include;..\..\..\..\..\..\..\Drivers\CMSIS\Include;..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto;..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac;..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy;..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities;..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1;..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core;..\..\..\..\..\..\..\Drivers\BSP\Components\Common;..\..\..\..\..\..\..\Drivers\BSP\Components\hts221;..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb;..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb;..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276;..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1;..\..\..\..\..\..\..\Drivers\BSP\sx1272mb2das;..\..\..\..\..\..\..\Drivers\BSP\Components\sx1272</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -390,9 +391,9 @@
           <GroupName>Drivers/BSP/Components</GroupName>
           <Files>
             <File>
-              <FileName>sx1276.c</FileName>
+              <FileName>sx1272.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276\sx1276.c</FilePath>
+              <FilePath>..\..\..\..\..\..\..\Drivers\BSP\Components\sx1272\sx1272.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -400,9 +401,9 @@
           <GroupName>Drivers/BSP/MLM32L0X01</GroupName>
           <Files>
             <File>
-              <FileName>mlm32l07x01.c</FileName>
+              <FileName>sx1272mb2das.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01\mlm32l07x01.c</FilePath>
+              <FilePath>..\..\..\..\..\..\..\Drivers\BSP\sx1272mb2das\sx1272mb2das.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -470,9 +471,9 @@
           <GroupName>Projects/MDK-ARM</GroupName>
           <Files>
             <File>
-              <FileName>startup_stm32l072xx.s</FileName>
+              <FileName>startup_stm32l053xx.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\startup_stm32l072xx.s</FilePath>
+              <FilePath>.\startup_stm32l053xx.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -674,5 +675,11 @@
       </Groups>
     </Target>
   </Targets>
+
+	<RTE>
+    <apis/>
+    <components/>
+    <files/>
+  </RTE>
 
 </Project>

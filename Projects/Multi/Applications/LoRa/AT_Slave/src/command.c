@@ -602,7 +602,7 @@ void CMD_Process(void)
   {
     command[i] = GetNewChar();
 
-#if 0 /* echo On    */
+#if 1 /* echo On    */
     PRINTF("%c", command[i]);
 #endif
 
