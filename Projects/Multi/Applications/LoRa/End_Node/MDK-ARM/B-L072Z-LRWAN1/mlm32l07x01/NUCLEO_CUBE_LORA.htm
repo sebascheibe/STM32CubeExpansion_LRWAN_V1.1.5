@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\mlm32l07x01\NUCLEO_CUBE_LORA.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\mlm32l07x01\NUCLEO_CUBE_LORA.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Fri May 18 11:46:08 2018
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Wed Aug 01 17:13:11 2018
 <BR><P>
 <H3>Maximum Stack Usage =        552 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -666,14 +666,13 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Send
 </UL>
 
-<P><STRONG><a name="[9c]"></a>DBG_Init</STRONG> (Thumb, 120 bytes, Stack size 40 bytes, debug.o(i.DBG_Init))
+<P><STRONG><a name="[9c]"></a>DBG_Init</STRONG> (Thumb, 92 bytes, Stack size 40 bytes, debug.o(i.DBG_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = DBG_Init &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DBGMCU_EnableDBGStopMode
-<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DBGMCU_EnableDBGStandbyMode
-<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DBGMCU_EnableDBGSleepMode
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DBGMCU_DisableDBGStopMode
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DBGMCU_DisableDBGStandbyMode
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DBGMCU_DisableDBGSleepMode
 <LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
 <BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -770,15 +769,15 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HW_AdcReadChannel
 </UL>
 
-<P><STRONG><a name="[9e]"></a>HAL_DBGMCU_EnableDBGSleepMode</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32l0xx_hal.o(i.HAL_DBGMCU_EnableDBGSleepMode))
+<P><STRONG><a name="[9e]"></a>HAL_DBGMCU_DisableDBGSleepMode</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32l0xx_hal.o(i.HAL_DBGMCU_DisableDBGSleepMode))
 <BR><BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DBG_Init
 </UL>
 
-<P><STRONG><a name="[a0]"></a>HAL_DBGMCU_EnableDBGStandbyMode</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32l0xx_hal.o(i.HAL_DBGMCU_EnableDBGStandbyMode))
+<P><STRONG><a name="[a0]"></a>HAL_DBGMCU_DisableDBGStandbyMode</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32l0xx_hal.o(i.HAL_DBGMCU_DisableDBGStandbyMode))
 <BR><BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DBG_Init
 </UL>
 
-<P><STRONG><a name="[9f]"></a>HAL_DBGMCU_EnableDBGStopMode</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32l0xx_hal.o(i.HAL_DBGMCU_EnableDBGStopMode))
+<P><STRONG><a name="[9f]"></a>HAL_DBGMCU_DisableDBGStopMode</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32l0xx_hal.o(i.HAL_DBGMCU_DisableDBGStopMode))
 <BR><BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DBG_Init
 </UL>
 
@@ -814,7 +813,6 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HW_GPIO_Write
 <LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_On
 <LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_Off
-<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DBG_Init
 </UL>
 
 <P><STRONG><a name="[89]"></a>HAL_GetTick</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32l0xx_hal.o(i.HAL_GetTick))
@@ -853,7 +851,7 @@ Global Symbols
 <LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
 </UL>
 
-<P><STRONG><a name="[af]"></a>HAL_MspInit</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, mlm32l0xx_hal_msp.o(i.HAL_MspInit))
+<P><STRONG><a name="[af]"></a>HAL_MspInit</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, mlm32l0xx_hal_msp.o(i.HAL_MspInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = HAL_MspInit &rArr; HW_GpioInit &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_PWREx_EnableUltraLowPower
@@ -3116,7 +3114,6 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HW_RTC_SetTimerContext
 <LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HW_RTC_GetTimerValue
 <LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HW_RTC_GetTimerElapsedTime
-<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HW_RTC_StartWakeUpAlarm
 </UL>
 
 <P><STRONG><a name="[e9]"></a>HW_RTC_SetConfig</STRONG> (Thumb, 82 bytes, Stack size 32 bytes, hw_rtc.o(i.HW_RTC_SetConfig))
@@ -3130,12 +3127,11 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HW_RTC_Init
 </UL>
 
-<P><STRONG><a name="[ef]"></a>HW_RTC_StartWakeUpAlarm</STRONG> (Thumb, 288 bytes, Stack size 48 bytes, hw_rtc.o(i.HW_RTC_StartWakeUpAlarm))
+<P><STRONG><a name="[ef]"></a>HW_RTC_StartWakeUpAlarm</STRONG> (Thumb, 264 bytes, Stack size 48 bytes, hw_rtc.o(i.HW_RTC_StartWakeUpAlarm))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = HW_RTC_StartWakeUpAlarm &rArr; HAL_RTC_SetAlarm_IT
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RTC_SetAlarm_IT
 <LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HW_RTC_StopAlarm
-<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HW_RTC_GetCalendarValue
 <LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
 </UL>

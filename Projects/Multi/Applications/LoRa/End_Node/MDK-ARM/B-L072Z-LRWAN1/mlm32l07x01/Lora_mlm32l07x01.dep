@@ -41,12 +41,12 @@ I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
 I (..\..\..\..\..\..\..\Drivers\BSP\Components\Common\temperature.h)(0x5AF45E1B)
 I (..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb\LPS25HB_Driver.h)(0x5AF45E1B)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
-F (..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276\sx1276.c)(0x5AF45E1B)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\sx1276.o --omf_browse .\mlm32l07x01\sx1276.crf --depend .\mlm32l07x01\sx1276.d)
+F (..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276\sx1276.c)(0x5B61D6B7)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\sx1276.o --omf_browse .\mlm32l07x01\sx1276.crf --depend .\mlm32l07x01\sx1276.d)
 I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -506,7 +506,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1309,7 +1309,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1361,7 +1361,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1413,7 +1413,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1465,7 +1465,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1519,7 +1519,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1566,12 +1566,12 @@ I (..\..\inc\hw_msp.h)(0x5AF5DA73)
 I (..\..\inc\debug.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\string.h)(0x599F67DC)
 I (..\..\inc\vcom.h)(0x5AF5DA73)
-F (..\..\src\main.c)(0x5AF9F3C8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\main.o --omf_browse .\mlm32l07x01\main.crf --depend .\mlm32l07x01\main.d)
+F (..\..\src\main.c)(0x5B61D6B8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\main.o --omf_browse .\mlm32l07x01\main.crf --depend .\mlm32l07x01\main.d)
 I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1621,7 +1621,7 @@ I (..\..\inc\vcom.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\low_power_manager.h)(0x5AF45E20)
 I (..\..\inc\utilities_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core\lora.h)(0x5AF45E20)
-I (..\..\inc\Commissioning.h)(0x5AFEE713)
+I (..\..\inc\Commissioning.h)(0x5B61FD7B)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\LoRaMac.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\timer.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\timeServer.h)(0x5AF45E20)
@@ -1630,13 +1630,13 @@ I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region/Region.h)(0x5AF4
 I (..\..\inc\bsp.h)(0x5AF5DA73)
 I (..\..\inc\version.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core\lora_mac_version.h)(0x5AF45E20)
-I (..\..\inc\tm_stm3210_gps.h)(0x5AF5ECA8)
+I (..\..\inc\tm_stm3210_gps.h)(0x5B61D6B8)
 F (..\..\src\vcom.c)(0x5AF5DA73)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\vcom.o --omf_browse .\mlm32l07x01\vcom.crf --depend .\mlm32l07x01\vcom.d)
 I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1689,7 +1689,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1743,7 +1743,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1797,7 +1797,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1850,7 +1850,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1903,14 +1903,14 @@ I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\timer.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy\radio.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region/Region.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core\lora.h)(0x5AF45E20)
-I (..\..\inc\Commissioning.h)(0x5AFEE713)
+I (..\..\inc\Commissioning.h)(0x5B61FD7B)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core\lora-test.h)(0x5AF45E20)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core\lora-test.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\lora-test.o --omf_browse .\mlm32l07x01\lora-test.crf --depend .\mlm32l07x01\lora-test.d)
 I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -1964,12 +1964,12 @@ I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy\radio.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region/Region.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\LoRaMacTest.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core\lora.h)(0x5AF45E20)
-I (..\..\inc\Commissioning.h)(0x5AFEE713)
+I (..\..\inc\Commissioning.h)(0x5B61FD7B)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core\lora-test.h)(0x5AF45E20)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\LoRaMac.c)(0x5AFEE685)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\loramac.o --omf_browse .\mlm32l07x01\loramac.crf --depend .\mlm32l07x01\loramac.d)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\string.h)(0x599F67DC)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2021,7 +2021,7 @@ I (..\..\inc\vcom.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\LoRaMacTest.h)(0x5AF45E20)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\LoRaMacCrypto.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\loramaccrypto.o --omf_browse .\mlm32l07x01\loramaccrypto.crf --depend .\mlm32l07x01\loramaccrypto.d)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2071,7 +2071,7 @@ I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\timer.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\timeServer.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2115,7 +2115,7 @@ I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region/Region.h)(0x5AF4
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionUS915.h)(0x5AFEE700)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionAS923.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\regionas923.o --omf_browse .\mlm32l07x01\regionas923.crf --depend .\mlm32l07x01\regionas923.d)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2168,7 +2168,7 @@ I (D:\Programme\Keil_v5\ARM\ARMCC\include\string.h)(0x599F67DC)
 I (..\..\inc\vcom.h)(0x5AF5DA73)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionAU915.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\regionau915.o --omf_browse .\mlm32l07x01\regionau915.crf --depend .\mlm32l07x01\regionau915.d)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2221,7 +2221,7 @@ I (D:\Programme\Keil_v5\ARM\ARMCC\include\string.h)(0x599F67DC)
 I (..\..\inc\vcom.h)(0x5AF5DA73)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionCN470.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\regioncn470.o --omf_browse .\mlm32l07x01\regioncn470.crf --depend .\mlm32l07x01\regioncn470.d)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2274,7 +2274,7 @@ I (D:\Programme\Keil_v5\ARM\ARMCC\include\string.h)(0x599F67DC)
 I (..\..\inc\vcom.h)(0x5AF5DA73)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionCN779.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\regioncn779.o --omf_browse .\mlm32l07x01\regioncn779.crf --depend .\mlm32l07x01\regioncn779.d)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2328,7 +2328,7 @@ I (..\..\inc\vcom.h)(0x5AF5DA73)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionCommon.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\regioncommon.o --omf_browse .\mlm32l07x01\regioncommon.crf --depend .\mlm32l07x01\regioncommon.d)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2377,7 +2377,7 @@ I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy\radio.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region/Region.h)(0x5AF45E20)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionEU433.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\regioneu433.o --omf_browse .\mlm32l07x01\regioneu433.crf --depend .\mlm32l07x01\regioneu433.d)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2430,7 +2430,7 @@ I (D:\Programme\Keil_v5\ARM\ARMCC\include\string.h)(0x599F67DC)
 I (..\..\inc\vcom.h)(0x5AF5DA73)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionEU868.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\regioneu868.o --omf_browse .\mlm32l07x01\regioneu868.crf --depend .\mlm32l07x01\regioneu868.d)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2483,7 +2483,7 @@ I (D:\Programme\Keil_v5\ARM\ARMCC\include\string.h)(0x599F67DC)
 I (..\..\inc\vcom.h)(0x5AF5DA73)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionIN865.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\regionin865.o --omf_browse .\mlm32l07x01\regionin865.crf --depend .\mlm32l07x01\regionin865.d)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2536,7 +2536,7 @@ I (D:\Programme\Keil_v5\ARM\ARMCC\include\string.h)(0x599F67DC)
 I (..\..\inc\vcom.h)(0x5AF5DA73)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionKR920.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\regionkr920.o --omf_browse .\mlm32l07x01\regionkr920.crf --depend .\mlm32l07x01\regionkr920.d)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2589,7 +2589,7 @@ I (D:\Programme\Keil_v5\ARM\ARMCC\include\string.h)(0x599F67DC)
 I (..\..\inc\vcom.h)(0x5AF5DA73)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionUS915.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\regionus915.o --omf_browse .\mlm32l07x01\regionus915.crf --depend .\mlm32l07x01\regionus915.d)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2642,7 +2642,7 @@ I (D:\Programme\Keil_v5\ARM\ARMCC\include\string.h)(0x599F67DC)
 I (..\..\inc\vcom.h)(0x5AF5DA73)
 F (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region\RegionUS915-Hybrid.c)(0x5AF45E20)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\..\..\Drivers\BSP\MLM32L07X01 -I ..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I ..\..\..\..\..\..\..\Drivers\CMSIS\Include -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Phy -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Core -I ..\..\..\..\..\..\..\Drivers\BSP\Components\Common -I ..\..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps22hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I ..\..\..\..\..\..\..\Drivers\BSP\Components\sx1276 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I ..\..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A2 -I ..\..\..\..\..\..\..\Drivers\BSP\B-L072Z-LRWAN1 -I ..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Mac\region --C99-I.\RTE\_mlm32l07x01-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-ID:\Programme\Keil_v5\ARM\CMSIS\Include-ID:\Programme\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="525" -DSTM32L072xx -DSTM32L072xx -DUSE_B_L072Z_LRWAN1 -DUSE_HAL_DRIVER -DREGION_US915 -DX_NUCLEO_IKS01A1-o .\mlm32l07x01\regionus915-hybrid.o --omf_browse .\mlm32l07x01\regionus915-hybrid.crf --depend .\mlm32l07x01\regionus915-hybrid.d)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2698,7 +2698,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2751,7 +2751,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2806,7 +2806,7 @@ I (..\..\inc\hw.h)(0x5AF5DA73)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\math.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F67DE)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2859,7 +2859,7 @@ I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F67DC)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F67DC)
 I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)
@@ -2905,7 +2905,7 @@ I (D:\Programme\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F67DE)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto\aes.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Crypto\cmac.h)(0x5AF45E20)
 I (..\..\..\..\..\..\..\Middlewares\Third_Party\Lora\Utilities\utilities.h)(0x5AF45E20)
-I (..\..\inc\hw_conf.h)(0x5AF5DA73)
+I (..\..\inc\hw_conf.h)(0x5B621400)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5AF45E1F)
 I (..\..\inc\stm32l0xx_hal_conf.h)(0x5AF5DA73)
 I (..\..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5AF45E1F)

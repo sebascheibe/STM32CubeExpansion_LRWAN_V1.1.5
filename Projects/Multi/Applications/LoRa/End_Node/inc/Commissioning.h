@@ -101,7 +101,7 @@
  *
  * \remark see STATIC_DEVICE_EUI comments
  */
-#define LORAWAN_DEVICE_EUI                          { 0xB8, 0x27, 0xEB, 0x89, 0x1C, 0xF5, 0x00, 0x03 }
+#define LORAWAN_DEVICE_EUI                          { 0xB8, 0x27, 0xEB, 0x89, 0x1C, 0xF5, 0x00, 0x04 }
 
 /*!
  * Application IEEE EUI (big endian)
